@@ -21,7 +21,7 @@ export default function NavbarMobileSidebarLayout({ header, primaryMenu, seconda
   });
 
   useEffect(() => {
-    const dialogEl = navbarModalDialog.current;
+    const { current: dialogEl } = navbarModalDialog;
 
     function toggleOnEscape(e) {
       if (e.key === 'Escape') {
@@ -31,12 +31,12 @@ export default function NavbarMobileSidebarLayout({ header, primaryMenu, seconda
       }
     }
 
-    dialogEl.addEventListener('keydown', toggleOnEscape);
+    dialogEl?.addEventListener('keydown', toggleOnEscape);
 
     return () => {
-      dialogEl.removeEventListener('keydown', toggleOnEscape);
+      dialogEl?.removeEventListener('keydown', toggleOnEscape);
     };
-  }, [shown]);
+  }, [shown, toggle]);
 
   return (
     <dialog className={clsx('navbar-sidebar', styles['navbar-sidebar'])} ref={navbarModalDialog}>
