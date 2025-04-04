@@ -297,6 +297,25 @@ Geef hier een eerste indicatie van de informatie-objecten die relevant zijn bij 
 - Domeinnamen van overheidswebsites (URLs)
 - Design Tokens JSON
 
+## 4.4 De invalshoek Applicaties
+
+<!--
+IMP010 Bied multi- en omni-channel dienstverlening
+
+-->
+
+De huisstijl van een organisatie moet toegankelijk en consistent zijn op alle kanalen. Overheden hebben vaak een website, en soms ook een mobiele applicatie. Design Tokens JSON is een platformonafhankelijk formaat, dat vertaald kan worden naar zowel webstandaarden als naar populaire programmeertalen voor mobiele applicaties. De software Style Dictionary wordt hiervoor veel gebruikt.
+
+De oplossing draagt daarom bij aan [omni-channel dienstverlening](https://www.noraonline.nl/wiki/Bied_multi-_en_omni-channel_dienstverlening).
+
+De oplossing [past de WCAG-ontwerprichtlijnen toe](https://www.noraonline.nl/wiki/Pas_ontwerprichtlijnen_toe_bij_websites_en_portalen_en_apps), en maakt het makkelijker voor websites, portalen en apps om dat ook te doen. Het gaat hierbij specifiek om de WCAG-richtlijnen voor contrast ([1.4.3](https://nldesignsystem.nl/wcag/1.4.3/) en [1.4.11](https://nldesignsystem.nl/wcag/1.4.11)), waar de meerderheid van de overheidswebsites in de praktijk niet aan voldoet.
+
+De oplossing [past open standaarden toe](https://www.noraonline.nl/wiki/Pas_open_standaarden_toe), doordat Design Tokens JSON wordt ontwikkeld als een een open standaard, door een W3C Community Group.
+
+De oplossing [bevordert hergebruik van gegevens](https://www.noraonline.nl/wiki/Bevorder_hergebruik_van_gegevens) door het makkelijk te maken voor organisaties om de toegankelijk huisstijl-beslissingen centraal vast te leggen en publiceren.
+
+<!-- Bevorder hergebruik van gegevens	 -->
+
 ### Overheidswebsites
 
 Om een automatische analyse te doen van de huisstijl van een overheidsorganisatie, dan moet de URL van de relevante website bekend zijn. Dat kan op basis van een databron met een verzameling van overheidswebsites. Het kan ook mogelijk zijn dat organisaties hun eigen website aanmelden via een on-line formulier.

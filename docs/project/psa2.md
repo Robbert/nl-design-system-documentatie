@@ -4,7 +4,9 @@ https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(ma
 
 ## 1. Managementsamenvatting
 
-De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen en oplossen. De uitvoering wordt getoetst met onderzoeksrapporten. Daaruit blijkt dat een gedeelte van de problemen in "content" zit, en dat oplossing gezocht moet worden bij de webredactie en content management systemen (CMS).
+De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen of oplossen. De uitvoering wordt getoetst met onderzoeksrapporten, daaruit blijkt dat een gedeelte van de problemen in "content" zit.
+
+Content meer toegankelijk maken kan op twee directe manieren: de redactie helpen bij toegankelijke content maken, en automatisch voorkomen dat in een content management systeem pagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
 
 We zoeken een oplossing hoe de belangrijkste problemen in content opgelost en voorkomen kunnen worden. De redactie is vaak niet op de hoogte van problemen die automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
 
@@ -87,20 +89,40 @@ De kaders zijn nu beperkt tot oplossingen voor webtechnologie. Een gedeelte van 
 
 De oplossing is beperkt tot toepassingen voor open source CMS implementaties. De meerderheid van de CMS-markt is open source. en niet een grote afhankelijkheid is van beschikbare capaciteit bij leveranciers om de ontwikkelingen te starten.
 
+---
+
 ## 2.1 Aanleiding en doelstelling
 
 <!--
 Beschrijf in het kort de huidige situatie en geef daarbij aan wat de precieze aanleiding is om deze PSA op te stellen: welke vraagstukken doen zich voor, wat moet worden aangepakt, welke ontwikkelingen vinden plaats waarmee rekening gehouden dient te worden, welke doelstelling en ambities worden nagestreefd, in welke richting het bestuur of management denkt qua oplossing e.d.
 -->
 
+Contentmakers van overheidswebsites moeten voldoen aan standaarden voor digitale toegankelijkheid, maar in het algemeen is het resultaat onvoldoende. De doelgroep is zich bewust dat toegankelijkheid belangrijk is, maar geeft aan dat in de context van hun werkzaamheden vaak onduidelijk is hoe content toegankelijk gemaakt kan worden, en dat bestaande hulpmiddelen niet effectief zijn.
+
+Minder dan 10% van de overheidswebsites heeft een de optimale A-status voor digitale toegankelijheid. Om te voldoen aan wetgeving, moet groot aantal websites verbeterd worden. Er is geen makkelijke manier om de duizenden contentmakers achter deze websites te bereiken. Andere projecten hebben nog niet geleid tot een grote afname in toegankelijkheidsproblemen in content, zoals contentmakers tips geven via social media en kennisartikelen.
+
+Uit onderzoek blijkt dat meeste contentmakers wel iets gemeen hebben: ze maken content via één van de top 4 content management systemen (CMS). Het is mogelijk een plugin voor toegankelijkheid te installeren in een CMS, en als de beheerders van het CMS dat willen doen, dan is het mogelijk de meeste contentmakers te bereiken.
+
+Het doel is om toegankelijheid van content van veel website te verbeteren, door contentmakers effectief te bereiken via hun CMS, en door begrijpelijke instructies en hulpmiddelen beschikbaar te maken in hun bestaande workflow.
+
 ## 2.2 Het te bereiken effect
 
 <!--
 Beschrijf kort en bondig de verandering en aan welke maatschappelijke doelen/ambities die verandering bijdraagt. Hier worden dus niet de projectdoelen en -ambitie bedoeld!
-Geef daarnaast aan wat de door het project te realiseren oplossing moet gaan doen en wat de belangrijkste functies van die voorziening daartoe zijn.
+Geef daarnaast aan wat de door het project te realiseren oplossing moet gaan doen en wat de belangrijkste functies van die voorziening daartoe zijn.sa
 Het afgesproken tijdpad en de kwaliteitseisen: wanneer zijn we tevreden met het resultaat. Beschrijf dit vanuit een “Black Box” (dus geen details van een oplossing).
 Vaak zijn er al documenten die de beoogde verandering beschrijven.
 -->
+
+Het doel van het project is dat overheidsinstellingen beter in staat zijn om de content van websites toegankelijk te maken, waardoor een groter deel van webpagina's bij de overheid toegankelijk is.
+
+1. Begrijpelijke instructies schrijven om content toegankelijk te maken, en organiseren per taak die een contentmaker heeft. Het doel is dat contentmakers daarmee de vaardigheid krijgen om toegankelijke content te maken, en veelgemaakte fouten te herkennen en voorkomen.
+
+2. Toegankelijkheidsproblemen automatisch herkennen, en begrijpelijke instructies tonen om de content toegankelijk te maken. Het doel is dat contentmakers op de hoogte zijn van het soort toegankelijkheidsproblemen dat geautomatiseerd is te herkennen, en dat ze daarna duidelijkheid hebben over de stappen om tot een toegankelijk resultaat te komen.
+
+3. Een plugin voor meerdere CMS-en ontwikkelen, die de instructies en hulpmiddelen aanbieden in de workflow van aan contentmakers. Het doel is dat de significant deel van overheidswebsites met een kleine invstering de oplossingen kan aanbieden aan contentmakers, doordat de beheerder van het CMS een plugin kan installeren.
+
+4. Er moet een basis zijn om op termijn de oplossingen in alle meestgebruikte CMS-en aan te bieden. Dit project moet voor twee CMS-en een plugin ontwikkelen, en aantonen aan dat de modulaire oplossingen herbruikbaar zijn. De twee plugins dienen dan als voorbeeld voor de ontwikkeling van een vergelijkbare plugin voor ander CMS.
 
 ## 2.3 Stakeholders
 
@@ -108,9 +130,19 @@ Vaak zijn er al documenten die de beoogde verandering beschrijven.
 Als het relevant is, neem dan ook wat achtergrondinformatie op over de betrokken overheidsorganisatie(s), de relevante wettelijke taken en de belangrijkste diensten/producten die die organisatie(s) aan de samenleving levert. Een belangrijke bron voor de beschrijving van een organisatie en het maatschappelijke belang, is de website van de organisatie. Daarnaast kunnen gesprekken met mensen, workshops of documenten binnen de organisatie veel input geven.
 -->
 
+De burgers en ondernemers die informatie nodig hebben van overheidswebsites zijn uiteindelijk de belangrijkste stakeholders van toegankelijke content. Hun belangen voor toegankelijkheid worden behartigd door toegankelijkheidsspecialisten, die periodiek elke overheidswebsite onderzoeken voor de toegankelijkheidsverklaring.
+
+[...]
+
+De belangrijkste stakeholders van dit project zijn teams bij overheidsorganisaties die verantwoordelijk zijn voor de inhoud van de website. De overheden zijn verplicht om websites toegankelijk te maken volgens WCAG.
+
+[...]
+
 ## 4.1 De invalshoek Grondslagen
 
-## 4.2 Invalshoek NL Design System Community
+De Nederlandse overheid moet alle websites toegankelijk maken volgens WCAG, door Nederlandse wetgeving "Tijdelijk besluit digitale toegankelijkheid overheid" en de Europese norm "EN 301 549 - Accessibility requirements for ICT products and services".
+
+---
 
 ## 4.2 De invalshoek Organisatie
 
