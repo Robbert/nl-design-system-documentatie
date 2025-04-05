@@ -97,13 +97,27 @@ De oplossing is beperkt tot toepassingen voor open source CMS implementaties. De
 Beschrijf in het kort de huidige situatie en geef daarbij aan wat de precieze aanleiding is om deze PSA op te stellen: welke vraagstukken doen zich voor, wat moet worden aangepakt, welke ontwikkelingen vinden plaats waarmee rekening gehouden dient te worden, welke doelstelling en ambities worden nagestreefd, in welke richting het bestuur of management denkt qua oplossing e.d.
 -->
 
-Contentmakers van overheidswebsites moeten voldoen aan standaarden voor digitale toegankelijkheid, maar in het algemeen is het resultaat onvoldoende. De doelgroep is zich bewust dat toegankelijkheid belangrijk is, maar geeft aan dat in de context van hun werkzaamheden vaak onduidelijk is hoe content toegankelijk gemaakt kan worden, en dat bestaande hulpmiddelen niet effectief zijn.
+Om te voldoen aan wetgeving voor digitale toegankelijkheid, moet 90% van de overheidswebsites verbeterd worden. Contentmakers zijn zich bewust dat een belangrijk deel van de oplossing zit in toegankelijke content maken. Uit onderzoek blijkt dat voor hen vaak onduidelijk is hoe content toegankelijk gemaakt kan worden, en dat bestaande hulpmiddelen niet effectief zijn.
 
-Minder dan 10% van de overheidswebsites heeft een de optimale A-status voor digitale toegankelijheid. Om te voldoen aan wetgeving, moet groot aantal websites verbeterd worden. Er is geen makkelijke manier om de duizenden contentmakers achter deze websites te bereiken. Andere projecten hebben nog niet geleid tot een grote afname in toegankelijkheidsproblemen in content, zoals contentmakers tips geven via social media en kennisartikelen.
+<!-- Er is geen makkelijke manier om de duizenden contentmakers achter deze websites te bereiken. Andere projecten hebben nog niet geleid tot een grote afname in toegankelijkheidsproblemen in content, zoals contentmakers tips geven via social media en kennisartikelen. -->
 
-Uit onderzoek blijkt dat meeste contentmakers wel iets gemeen hebben: ze maken content via één van de top 4 content management systemen (CMS). Het is mogelijk een plugin voor toegankelijkheid te installeren in een CMS, en als de beheerders van het CMS dat willen doen, dan is het mogelijk de meeste contentmakers te bereiken.
+<!-- Uit onderzoek blijkt dat meeste contentmakers gebruik maken van één van de top vier content management systemen (CMS). Het is mogelijk een plugin voor een CMS te maken die contentmakers ondersteunt bij toegankelijke content maken. -->
 
-Het doel is om toegankelijheid van content van veel website te verbeteren, door contentmakers effectief te bereiken via hun CMS, en door begrijpelijke instructies en hulpmiddelen beschikbaar te maken in hun bestaande workflow.
+Het doel is om toegankelijheid van content van veel websites te verbeteren, door contentmakers effectieve ondersteuning te bieden die zoveel mogelijk aansluit op hun bestaande workflow. Dit doen we door de volgende twee delen:
+
+### Kennis
+
+Begrijpelijke instructies om content toegankelijk te maken aanbieden, georganiseerd per taak die een contentmaker heeft. Het doel is dat contentmakers voor hun huidige taak de kennis kunnen vinden om toegankelijke content te maken.
+
+### Hulpmiddelen
+
+Een plugin voor een CMS ontwikkelen, die de instructies en hulpmiddelen biedt in de workflow van contentmakers. De plugin bestaat uit drie delen:
+
+- Bestaande schermen in het CMS uitbreiden met instructies om content toegankelijk te maken.
+- Waarschuwingen geven bij ontoegankelijke content, met instructies om het op te lossen.
+- De mogelijkheid bieden om content vanuit een ander perspectief te bekijken, zodat je zonder technische kennis kan beoordelen of de content toegankelijk is.
+
+Dit project ontwikkelt voor 2 CMS-en een plugin. De twee plugins dienen dan als voorbeeld voor de ontwikkeling van plugins voor andere CMS-en.
 
 ## 2.2 Het te bereiken effect
 
@@ -115,14 +129,6 @@ Vaak zijn er al documenten die de beoogde verandering beschrijven.
 -->
 
 Het doel van het project is dat overheidsinstellingen beter in staat zijn om de content van websites toegankelijk te maken, waardoor een groter deel van webpagina's bij de overheid toegankelijk is.
-
-1. Begrijpelijke instructies schrijven om content toegankelijk te maken, en organiseren per taak die een contentmaker heeft. Het doel is dat contentmakers daarmee de vaardigheid krijgen om toegankelijke content te maken, en veelgemaakte fouten te herkennen en voorkomen.
-
-2. Toegankelijkheidsproblemen automatisch herkennen, en begrijpelijke instructies tonen om de content toegankelijk te maken. Het doel is dat contentmakers op de hoogte zijn van het soort toegankelijkheidsproblemen dat geautomatiseerd is te herkennen, en dat ze daarna duidelijkheid hebben over de stappen om tot een toegankelijk resultaat te komen.
-
-3. Een plugin voor meerdere CMS-en ontwikkelen, die de instructies en hulpmiddelen aanbieden in de workflow van aan contentmakers. Het doel is dat de significant deel van overheidswebsites met een kleine invstering de oplossingen kan aanbieden aan contentmakers, doordat de beheerder van het CMS een plugin kan installeren.
-
-4. Er moet een basis zijn om op termijn de oplossingen in alle meestgebruikte CMS-en aan te bieden. Dit project moet voor twee CMS-en een plugin ontwikkelen, en aantonen aan dat de modulaire oplossingen herbruikbaar zijn. De twee plugins dienen dan als voorbeeld voor de ontwikkeling van een vergelijkbare plugin voor ander CMS.
 
 ## 2.3 Stakeholders
 
@@ -137,6 +143,8 @@ De burgers en ondernemers die informatie nodig hebben van overheidswebsites zijn
 De belangrijkste stakeholders van dit project zijn teams bij overheidsorganisaties die verantwoordelijk zijn voor de inhoud van de website. De overheden zijn verplicht om websites toegankelijk te maken volgens WCAG.
 
 [...]
+
+<!-- Het doel is dat de significant deel van overheidswebsites met een kleine invstering de oplossingen kan aanbieden aan contentmakers, doordat de beheerder van het CMS een plugin kan installeren. -->
 
 ## 4.1 De invalshoek Grondslagen
 
