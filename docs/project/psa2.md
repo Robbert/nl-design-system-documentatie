@@ -4,7 +4,8 @@ https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(ma
 
 ## Status
 
-Status: concept.
+Status: Concept.
+
 Datum: april 2025.
 
 ## 1. Managementsamenvatting
@@ -168,13 +169,60 @@ Gebruik van de oplossing zal ruim voor het eind van de realisatiefase getest wor
 
 ## 4.2 De invalshoek Organisatie
 
-Het Ministerie van Binnenlandse Zaken is eind-verantwoordelijk voor deze dienst.
+<!-- Wie (welke functie) is eind-verantwoordelijk voor deze dienst? -->
 
-Als contentmakers of beheerders van websites problemen hebben met de oplossing of de documentatie, dan moeten ze contact kunnen opnemen met de afdeling die verantwoordelijk is voor beheer van NL Design System.
+Het Ministerie van Binnenlandse Zaken is eind-verantwoordelijk voor deze oplossing.
+
+<!-- https://www.noraonline.nl/wiki/Geef_de_afnemer_inzage_in_rechten_en_voorwaarden_en_plichten -->
+
+De oplossing zal worden verstrekt als open source software [onder de EUPL-1.2 licentie](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32017D0863), „zoals het is” en zonder enige garantie.
+
+De beheerder van de oplossing is verantwoordelijk voor de governance van open source software.
+
+Overheidsinstellingen kunnen naleving van toegankelijkheid verbeteren door opdracht te geven aan de beheerder van hun website om de CMS-plugin toe te passen, wanneer een plugin beschikbaar is voor het betreffende CMS.
+
+<!-- https://www.noraonline.nl/wiki/Stel_een_duidelijke_Quality_of_Service_(QoS)_vast_voor_de_dienst -->
+
+Wanneer contentmakers problemen hebben met de oplossing, dan moeten ze om hulp vragen bij de beheerder van hun CMS. Zolang de opdrachtgever een opdracht geeft voor doorontwikkeling van de oplossing, kan de beheerder van het CMS op hun beurt contact opnemen met de beheerder van de oplossing. De beheerder kan dan besluiten zelf een verbetering te doen, of ze kunnen open source bijdrage in behandeling nemen.
+
+NL Design System is de beoogd beheerder van de oplossing.
+
+Wanneer er geen opdracht is voor doorontwikkeling, dan is het gebruikelijke proces voor open source software: een derde partij kan het oorspronkelijke werk wijzigen, in gebruik nemen en verder verspreiden.
+
+<!-- Welke overheidsorganisatie(s) voert (voeren) die afspraken uit? -->
+
+<!-- Welke overheidsorganisatie is verantwoordelijk voor het herstel van eventuele gemaakte fouten? En bij wie kan de gebruiker (burger, ondernemer, ambtenaar) hulp vragen als het vastloopt oid.? -->
+
+<!-- Welke overheidsorganisatie(s) is (zijn) verantwoordelijk voor het doorvoeren van wijzigingen in het proces? -->
+
+<!-- Welke overheidsorganisatie is verantwoordelijk voor voorstellen voor verbetering van de afspraken of van de uitvoering? -->
+<!-- Zie voor deze aspecten NAP17 Stuur cyclisch op kwaliteit -->
 
 Het Ministerie van Binnenlandse Zaken is verantwoordelijk voor monitoring van toegankelijkheid. Door periodieke analyse van recente toegankelijkheidsverklaringen kunnen veelvoorkomende toegankelijkheidsproblemen in content geïdentificeerd worden. Op basis van de onderzoeksresultaten kunnen kansen onderzocht worden om de oplossing van dit project aan te vullen of te verbeteren.
 
 ## 4.3 De invalshoek Informatie
+
+<!-- https://www.noraonline.nl/wiki/Maak_zoveel_mogelijk_data_beschikbaar_als_open_data -->
+
+De instructies voor toegankelijke content maken zullen als open source documentatie gepubliceerd worden op de website van NL Design System.
+
+<!-- Variatie op: https://www.noraonline.nl/wiki/Neem_diensten_op_in_een_producten-_en_dienstencatalogus_(PDC) -->
+
+De open source oplossing zal opgenomen worden in het Open Source Software register van [developer.overheid.nl](http://developer.overheid.nl).
+
+Wanneer contentmakers de oplossing gebruiken, dan blijft de content van webpagina's bij de bron, in het CMS van de overheidsinstelling waar de CMS-plugin is geïnstalleerd.
+
+<!-- https://www.noraonline.nl/wiki/Bevorder_hergebruik_van_gegevens -->
+
+Het [register van toegankelijkheidsverklaringen](https://www.toegankelijkheidsverklaring.nl/register) heeft veel informatie die inzicht kan bieden welke toegankelijkheidsproblemen veel voorkomen bij overheidswebsites.
+
+## 4.4 De invalshoek Applicaties
+
+De instructies voor toegankelijke content kunnen gelijk gebruikt worden door alle contentmakers, wanneer ze gepubliceerd zijn op de website van NL Design System. De website is een open source project, waarbij de documentatie wordt beheerd via Markdown-bestanden in een Git-repository.
+
+De oplossingen in de CMS-plugin zijn pas effectief wanneer ze geïnstalleerd zijn in de CMS-en van overheidsinstellingen. De volgende 4 applicaties worden het meest gebruikt voor websites van de overheid: [Drupal](https://drupal.org/), [WordPress](http://wordpress.org), [TYPO3](https://typo3.org/cms) en [Bloomreach Content](https://www.bloomreach.com/en/products/content).
+
+Drupal, WordPress en TYPO3 zijn het meest geschikt voor de CMS-plugin. Deze drie community-driven zijn open source software, en ze hebben een plug-in ecosysteem: [WordPress plugins](https://wordpress.org/plugins/), [Drupal modules](https://www.drupal.org/project/project_module) en [TYPO3 extensions](https://extensions.typo3.org). Bloomreach Content is minder geschikt, alleen de broncode van 24 maanden oude versies wordt publiek gedeeld en er zijn slechts weinig [Bloomreach extensions ontwikkeld door de community](https://bloomreach-forge.github.io/project-list.html).
 
 ## 5. Standaarden
 
