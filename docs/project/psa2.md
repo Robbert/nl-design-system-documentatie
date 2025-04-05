@@ -4,11 +4,11 @@ https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(ma
 
 ## 1. Managementsamenvatting
 
-De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen of oplossen. De uitvoering wordt getoetst met onderzoeksrapporten, daaruit blijkt dat een gedeelte van de problemen in "content" zit.
+De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt dat content van websites vaak niet voldoende toegankelijk is.
 
-Content meer toegankelijk maken kan op twee directe manieren: de redactie helpen bij toegankelijke content maken, en automatisch voorkomen dat in een content management systeem pagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
+Content meer toegankelijk maken kan op twee directe manieren: contentmakers ondersteunen bij toegankelijke content maken, en door voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
 
-We zoeken een oplossing hoe de belangrijkste problemen in content opgelost en voorkomen kunnen worden. De redactie is vaak niet op de hoogte van problemen die automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
+We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
 
 <!-- De belangrijkste bestaande kaders en inrichtingskeuzes waarmee rekening moet worden gehouden. Benoem hierbij ook de samenhang met architecturen. Bijvoorbeeld door aan te geven welk deel van een enterprise-, domein- of ketenarchitectuur de verandering invulling geeft. -->
 
@@ -103,7 +103,18 @@ Om te voldoen aan wetgeving voor digitale toegankelijkheid, moet 90% van de over
 
 <!-- Uit onderzoek blijkt dat meeste contentmakers gebruik maken van één van de top vier content management systemen (CMS). Het is mogelijk een plugin voor een CMS te maken die contentmakers ondersteunt bij toegankelijke content maken. -->
 
-Het doel is om toegankelijheid van content van veel websites te verbeteren, door contentmakers effectieve ondersteuning te bieden die zoveel mogelijk aansluit op hun bestaande workflow. Dit doen we door de volgende twee delen:
+Het doel is om toegankelijheid van content van veel websites te verbeteren, door contentmakers effectieve ondersteuning te bieden die zoveel mogelijk aansluit op hun bestaande workflow.
+
+## 2.2 Het te bereiken effect
+
+<!--
+Beschrijf kort en bondig de verandering en aan welke maatschappelijke doelen/ambities die verandering bijdraagt. Hier worden dus niet de projectdoelen en -ambitie bedoeld!
+Geef daarnaast aan wat de door het project te realiseren oplossing moet gaan doen en wat de belangrijkste functies van die voorziening daartoe zijn.sa
+Het afgesproken tijdpad en de kwaliteitseisen: wanneer zijn we tevreden met het resultaat. Beschrijf dit vanuit een “Black Box” (dus geen details van een oplossing).
+Vaak zijn er al documenten die de beoogde verandering beschrijven.
+-->
+
+De ambitie is om overheidsinstellingen beter in staat stellen de content van websites toegankelijk te maken, door het aanbieden van kennis en hulpmiddelen in de workflow van contentmakers, waardoor een groter deel van webpagina's bij de overheid voldoet aan de wettelijk eisen.
 
 ### Kennis
 
@@ -119,16 +130,9 @@ Een plugin voor een CMS ontwikkelen, die de instructies en hulpmiddelen biedt in
 
 Dit project ontwikkelt voor 2 CMS-en een plugin. De twee plugins dienen dan als voorbeeld voor de ontwikkeling van plugins voor andere CMS-en.
 
-## 2.2 Het te bereiken effect
+### Succes
 
-<!--
-Beschrijf kort en bondig de verandering en aan welke maatschappelijke doelen/ambities die verandering bijdraagt. Hier worden dus niet de projectdoelen en -ambitie bedoeld!
-Geef daarnaast aan wat de door het project te realiseren oplossing moet gaan doen en wat de belangrijkste functies van die voorziening daartoe zijn.sa
-Het afgesproken tijdpad en de kwaliteitseisen: wanneer zijn we tevreden met het resultaat. Beschrijf dit vanuit een “Black Box” (dus geen details van een oplossing).
-Vaak zijn er al documenten die de beoogde verandering beschrijven.
--->
-
-Het doel van het project is dat overheidsinstellingen beter in staat zijn om de content van websites toegankelijk te maken, waardoor een groter deel van webpagina's bij de overheid toegankelijk is.
+Het project is succesvol wanneer blijkt dat contentmakers in staat zijn om, voor de soorten content waarvoor de kennis en hulpmiddelen zijn gerealiseerd, webpagina's te publiceren die voldoen aan de wettelijk verplichte standaarden voor digitale toegankelijkheid.
 
 ## 2.3 Stakeholders
 
@@ -136,11 +140,26 @@ Het doel van het project is dat overheidsinstellingen beter in staat zijn om de 
 Als het relevant is, neem dan ook wat achtergrondinformatie op over de betrokken overheidsorganisatie(s), de relevante wettelijke taken en de belangrijkste diensten/producten die die organisatie(s) aan de samenleving levert. Een belangrijke bron voor de beschrijving van een organisatie en het maatschappelijke belang, is de website van de organisatie. Daarnaast kunnen gesprekken met mensen, workshops of documenten binnen de organisatie veel input geven.
 -->
 
-De burgers en ondernemers die informatie nodig hebben van overheidswebsites zijn uiteindelijk de belangrijkste stakeholders van toegankelijke content. Hun belangen voor toegankelijkheid worden behartigd door toegankelijkheidsspecialisten, die periodiek elke overheidswebsite onderzoeken voor de toegankelijkheidsverklaring.
+De stakeholders van dit project zijn:
 
-[...]
+- Opdrachtgever: Ministerie van Binnenlandse Zaken. De Minister van Binnenlandse Zaken en Koninkrijksrelaties is verantwoordelijk voor monitoring en rapportage inzake naleving van het [Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01), en het blijkt dat naleving verbeterd moet worden.
+- Opdrachtnemer: [ICTU](http://ictu.nl). Voor ICTU is het belangrijk dat de opdracht uitgevoerd kan worden volgens afspraken met de opdrachtgever.
+- Burgers/Bedrijven: toegankelijke content van overheidswebsites maakt het mogelijk dat iedereen gelijkwaardige toegang tot die informatie heeft.
+- Contentmakers van overheidswebsites: de oplossing moet op gebruiksvriendelijke wijze helpen bij de naleving van de wetgeving voor toegankelijkheid.
+- Beheerders van overheidswebsites: de oplossing moet goed integreren met bestaande systemen.
+- Architect: ...
+- Ontwikkelaars van de oplossing: voor succesvolle realisatie van het project is zijn realistische doelen en een haalbare aanpak nodig.
+- Beheerder: NL Design System.
+
+Ter voorbereiding van de PSA zijn interviews afgenomen met contentmakers en beheerders van overheidswebsites.
 
 De belangrijkste stakeholders van dit project zijn teams bij overheidsorganisaties die verantwoordelijk zijn voor de inhoud van de website. De overheden zijn verplicht om websites toegankelijk te maken volgens WCAG.
+
+De burgers en ondernemers die informatie nodig hebben van overheidswebsites zijn uiteindelijk de belangrijkste stakeholders van toegankelijke content. Hun belangen voor toegankelijkheid worden behartigd door toegankelijkheidsspecialisten, die periodiek elke overheidswebsite onderzoeken voor de toegankelijkheidsverklaring.
+
+Opdrachtgever:
+
+[...]
 
 [...]
 
@@ -148,9 +167,15 @@ De belangrijkste stakeholders van dit project zijn teams bij overheidsorganisati
 
 ## 4.1 De invalshoek Grondslagen
 
-De Nederlandse overheid moet alle websites toegankelijk maken volgens WCAG, door Nederlandse wetgeving "Tijdelijk besluit digitale toegankelijkheid overheid" en de Europese norm "EN 301 549 - Accessibility requirements for ICT products and services".
+De Nederlandse overheid moet haar websites toegankelijk maken volgens de criteria van [WCAG 2.1](https://www.w3.org/TR/WCAG21/), voor naleving van de Nederlandse wetgeving "[Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01)" en zoals beschreven de Europese norm "[EN 301 549 - Accessibility requirements for ICT products and services](https://accessible-eu-centre.ec.europa.eu/content-corner/digital-library/en-3015492021-accessibility-requirements-ict-products-and-services_en)".
 
----
+Websites worden periodiek onderzocht door toegankelijkheidsspecialisten op naleving van de wettelijke eisen, aan de hand van de [WCAG-EM](https://www.w3.org/TR/WCAG-EM/) standaard.
+
+De [ICTU Kwaliteitsaanpak Softwareontwikkeling](https://ictu.github.io/Kwaliteitsaanpak/) zal toegepast worden bij de ontwikkeling van de oplossing.
+
+Gebruik van de oplossing zal halverwege de realisatiefase getest worden met contentmakers en toegankelijkheidsspecialisten, zodat tijdens het Agile ontwikkeproces de gebruiksvriendelijkheid en effectiviteit verbeterd kan worden op basis van feedback.
+
+## https://www.digitoegankelijk.nl/toegankelijkheidsverklaring/onderzoek#deelonderzoek
 
 ## 4.2 De invalshoek Organisatie
 
@@ -201,6 +226,10 @@ https://teams.microsoft.com/l/message/19:E6JPK002Sp8hbLMWwR9hKDC7p7jzQ9LYFmcriSR
 Voor maatregelen voor informatiebeveiliging is de ISO 27002 een standaard.
 
 Dat betekent dat website waar de oplossing wordt gepubliceerd moet een 100% score halen op internet.nl.
+
+## 7 Beheer
+
+...
 
 ### Belangrijkste bestaande kaders en inrichtingskeuzes
 
