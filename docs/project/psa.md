@@ -149,13 +149,13 @@ Met dit project moet het zó makkelijk worden de diverse huisstijlen van de Nede
 
 ## 2.3 Stakeholders
 
-- Opdrachtgever: Ministerie van Binnenlandse Zaken
-- Opdrachtnemer: ICTU
-- Bedrijven en overheidsorganisaties die verantwoordelijk zijn voor een huisstijl-implementaties
+- Opdrachtgever: Ministerie van Binnenlandse Zaken.
+- Opdrachtnemer: ICTU.
+- Bedrijven en overheidsorganisaties die verantwoordelijk zijn voor een huisstijl-implementaties.
 - Organisaties met een huisstijl die moet voldoen aan Digitale Toegankelijkheid.
-- Ontwikkelaars die een huisstijl nodig hebben
-- Designers die een huisstijl nodig hebben
-- Ontwikkelaars van het product
+- Ontwikkelaars die een huisstijl nodig hebben.
+- Designers die een huisstijl nodig hebben.
+- Ontwikkelaars van het product.
 - Beheerder: bijvoorbeeld ICTU <!-- TODO: Beheerpartij vasstellen, kijken wat het belang is -->
 
 TODO: Voor NPR5326 M01 moeten we "Belanghebbenden identificeren en betrekken". Dat betekent namen documenteren en personen voortdurend betrekken bij besluitvorming.

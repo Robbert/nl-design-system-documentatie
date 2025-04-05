@@ -2,6 +2,11 @@
 
 https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(max_1_A4)
 
+## Status
+
+Status: concept.
+Datum: april 2025.
+
 ## 1. Managementsamenvatting
 
 De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt dat content van websites vaak niet voldoende toegankelijk is.
@@ -143,27 +148,13 @@ Als het relevant is, neem dan ook wat achtergrondinformatie op over de betrokken
 De stakeholders van dit project zijn:
 
 - Opdrachtgever: Ministerie van Binnenlandse Zaken. De Minister van Binnenlandse Zaken en Koninkrijksrelaties is verantwoordelijk voor monitoring en rapportage inzake naleving van het [Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01), en het blijkt dat naleving verbeterd moet worden.
-- Opdrachtnemer: [ICTU](http://ictu.nl). Voor ICTU is het belangrijk dat de opdracht uitgevoerd kan worden volgens afspraken met de opdrachtgever.
-- Burgers/Bedrijven: toegankelijke content van overheidswebsites maakt het mogelijk dat iedereen gelijkwaardige toegang tot die informatie heeft.
-- Contentmakers van overheidswebsites: de oplossing moet op gebruiksvriendelijke wijze helpen bij de naleving van de wetgeving voor toegankelijkheid.
-- Beheerders van overheidswebsites: de oplossing moet goed integreren met bestaande systemen.
-- Architect: ...
-- Ontwikkelaars van de oplossing: voor succesvolle realisatie van het project is zijn realistische doelen en een haalbare aanpak nodig.
-- Beheerder: NL Design System.
-
-Ter voorbereiding van de PSA zijn interviews afgenomen met contentmakers en beheerders van overheidswebsites.
-
-De belangrijkste stakeholders van dit project zijn teams bij overheidsorganisaties die verantwoordelijk zijn voor de inhoud van de website. De overheden zijn verplicht om websites toegankelijk te maken volgens WCAG.
-
-De burgers en ondernemers die informatie nodig hebben van overheidswebsites zijn uiteindelijk de belangrijkste stakeholders van toegankelijke content. Hun belangen voor toegankelijkheid worden behartigd door toegankelijkheidsspecialisten, die periodiek elke overheidswebsite onderzoeken voor de toegankelijkheidsverklaring.
-
-Opdrachtgever:
-
-[...]
-
-[...]
-
-<!-- Het doel is dat de significant deel van overheidswebsites met een kleine invstering de oplossingen kan aanbieden aan contentmakers, doordat de beheerder van het CMS een plugin kan installeren. -->
+- Opdrachtnemer: [ICTU](http://ictu.nl). Voor ICTU is het belangrijk dat de opdracht uitgevoerd kan worden volgens afspraken met de opdrachtgever, en volgens gebruikelijke interne processen.
+- Burgers en bedrijven: toegankelijke content van overheidswebsites is nodig zodat iedereen gelijkwaardige toegang tot die informatie heeft.
+- Contentmakers van overheidswebsites: de oplossing moet op gebruiksvriendelijke wijze helpen bij de naleving van de wetgeving voor toegankelijkheid, bij taken waar ondersteuning gewenst is. Ter voorbereiding van de PSA zijn interviews afgenomen met contentmakers.
+- Beheerders van overheidswebsites: de oplossing moet goed integreren met bestaande systemen. Ter voorbereiding van de PSA zijn interviews afgenomen met beheerders van CMS-en voor overheidswebsites.
+- Architect: er moet voldoende informatie zijn om een Solution Architecture te ontwerpen.
+- Ontwikkelaars van de oplossing: voor succesvolle realisatie van het project zijn realistische doelen en een haalbare aanpak nodig.
+- Beheerder: [NL Design System](https://nldesignsystem.nl). Voor de beheerder is het belangrijk dat de oplossing is voorzien van voldoende documentatie en voldoende automatisering van tests en processen. De implementatie moet zoveel mogelijk aansluiten bij de kennis en ervaring van de beheerder, en bij de componenten die de NL Design System community ontwikkelt.
 
 ## 4.1 De invalshoek Grondslagen
 
@@ -173,13 +164,15 @@ Websites worden periodiek onderzocht door toegankelijkheidsspecialisten op nalev
 
 De [ICTU Kwaliteitsaanpak Softwareontwikkeling](https://ictu.github.io/Kwaliteitsaanpak/) zal toegepast worden bij de ontwikkeling van de oplossing.
 
-Gebruik van de oplossing zal halverwege de realisatiefase getest worden met contentmakers en toegankelijkheidsspecialisten, zodat tijdens het Agile ontwikkeproces de gebruiksvriendelijkheid en effectiviteit verbeterd kan worden op basis van feedback.
-
-## https://www.digitoegankelijk.nl/toegankelijkheidsverklaring/onderzoek#deelonderzoek
+Gebruik van de oplossing zal ruim voor het eind van de realisatiefase getest worden met contentmakers en toegankelijkheidsspecialisten, zodat tijdens het Agile ontwikkeproces de gebruiksvriendelijkheid en effectiviteit verbeterd kan worden op basis van feedback.
 
 ## 4.2 De invalshoek Organisatie
 
-## 4.3
+Het Ministerie van Binnenlandse Zaken is eind-verantwoordelijk voor deze dienst.
+
+Als contentmakers of beheerders van websites problemen hebben met de oplossing of de documentatie, dan moeten ze contact kunnen opnemen met de afdeling die verantwoordelijk is voor beheer van NL Design System.
+
+Het Ministerie van Binnenlandse Zaken is verantwoordelijk voor monitoring van toegankelijkheid. Door periodieke analyse van recente toegankelijkheidsverklaringen kunnen veelvoorkomende toegankelijkheidsproblemen in content geïdentificeerd worden. Op basis van de onderzoeksresultaten kunnen kansen onderzocht worden om de oplossing van dit project aan te vullen of te verbeteren.
 
 ## 4.3 De invalshoek Informatie
 
