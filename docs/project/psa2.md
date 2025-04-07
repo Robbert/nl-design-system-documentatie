@@ -288,10 +288,14 @@ Governance van het open source project zal een belangrijke verantwoordelijkheid 
 
 <!-- applicatie architectuur kan gewoon een archimate plaatje zijn -->
 
-CIA triad voor informatiebeveiliging
+<!-- TODO: CIA triad voor informatiebeveiliging -->
 
-voor informatie beveiliging kijken naar categorieen van ISO27001 maatregelen / concerns
+<!-- TODO: voor informatie beveiliging kijken naar categorieen van ISO27001 maatregelen / concerns -->
+
+[...]
 
 ### Punten voor discussie
 
-Maak een document
+<!-- Maak een document -->
+
+[...]
