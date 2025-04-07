@@ -95,8 +95,6 @@ De kaders zijn nu beperkt tot oplossingen voor webtechnologie. Een gedeelte van 
 
 De oplossing is beperkt tot toepassingen voor open source CMS implementaties. De meerderheid van de CMS-markt is open source. en niet een grote afhankelijkheid is van beschikbare capaciteit bij leveranciers om de ontwikkelingen te starten.
 
----
-
 ## 2.1 Aanleiding en doelstelling
 
 <!--
@@ -187,7 +185,7 @@ Wanneer contentmakers problemen hebben met de oplossing, dan moeten ze om hulp v
 
 NL Design System is de beoogd beheerder van de oplossing.
 
-Wanneer er geen opdracht is voor doorontwikkeling, dan is het gebruikelijke proces voor open source software: een derde partij kan het oorspronkelijke werk wijzigen, in gebruik nemen en verder verspreiden.
+Wanneer er geen opdracht meer is voor doorontwikkeling, dan is het gebruikelijke proces voor open source software: een derde partij kan het oorspronkelijke werk wijzigen, in gebruik nemen en verder verspreiden.
 
 <!-- Welke overheidsorganisatie(s) voert (voeren) die afspraken uit? -->
 
@@ -254,6 +252,8 @@ Voor het maken van applicaties moeten de volgende standaarden worden gebruikt:
 - https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001 door BIO
 
 ## 6.1 Privacy
+
+De oplossing van project verwerkt geen persoonsgegevens. De inhoud en metadata van content in een CMS kan persoonsgegevens bevatten. De bescherming van gegevens in het CMS is de verantwoordelijkheid van de afnemers van de CMS-plugin.
 
 ## 6.2 Informatiebeveiliging
 
