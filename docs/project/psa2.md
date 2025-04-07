@@ -136,6 +136,8 @@ Dit project ontwikkelt voor 2 CMS-en een plugin. De twee plugins dienen dan als 
 
 ### Succes
 
+De documentatie en hulpmiddelen die in dit project worden ontwikkeld, zullen zich richten op een beperkte selectie van toegankelijkheidsproblemen. De prioriteit en volgorde zal bepaald worden op basis van hoe vaak het probleem voorkomt, de impact op eindgebruikers, en de haalbaarheid van de oplossing.
+
 Het project is succesvol wanneer blijkt dat contentmakers in staat zijn om, voor de soorten content waarvoor de kennis en hulpmiddelen zijn gerealiseerd, webpagina's te publiceren die voldoen aan de wettelijk verplichte standaarden voor digitale toegankelijkheid.
 
 ## 2.3 Stakeholders
@@ -270,7 +272,11 @@ Dat betekent dat website waar de oplossing wordt gepubliceerd moet een 100% scor
 
 ## 7 Beheer
 
-...
+Beheer van dit project zal verantwoordelijk zijn voor onderhoud van de software, de CMS-plugin geschikt maken voor nieuwe versies van het betreffende CMS, en het onderhoud aan de ontwikkel- en testomgevingen.
+
+Dit project ontwikkelt een oplossing voor een beperkte selectie van toegankelijkheidsproblemen. Als dit project een succes is, dan kan de open source community oplossingen bijdragen voor meer toegankelijkheidsproblemen.
+
+Governance van het open source project zal een belangrijke verantwoordelijkheid zijn tijdens beheer. Op basis van open source samenwerkingen tijdens dit project, kan gekozen worden op wel niveau in [de open source ambitieladder](https://minvws.github.io/beleidsontwikkeling/ambitieladder/) het beheer wordt gedaan.
 
 ### Belangrijkste bestaande kaders en inrichtingskeuzes
 
