@@ -1,4 +1,4 @@
-# Project Start Architectuur voor Expertteam Digitale Toegankelijkheid, onderdeel webredactie
+# Toegankelijke content: Project Start Architectuur voor Expertteam Digitale Toegankelijkheid
 
 https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(max_1_A4)
 
@@ -6,7 +6,15 @@ https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(ma
 
 Status: Concept.
 
-Datum: april 2025.
+Datum: 28 april 2025.
+
+| Versie | Datum         | Auteur           | Status  |
+| ------ | ------------- | ---------------- | ------- |
+| 0.4.2  | 28 april 2025 | Robbert Broersma | Concept |
+
+### Versie 0.4.2
+
+Eerste concept-versie.
 
 ## 1. Managementsamenvatting
 
@@ -14,7 +22,7 @@ De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkh
 
 Content meer toegankelijk maken kan op twee directe manieren: contentmakers ondersteunen bij toegankelijke content maken, en door voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
 
-We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
+We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. <!-- TODO: Zin herschrijven, hint al teveel naar de oplossing -->Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
 
 <!-- De belangrijkste bestaande kaders en inrichtingskeuzes waarmee rekening moet worden gehouden. Benoem hierbij ook de samenhang met architecturen. Bijvoorbeeld door aan te geven welk deel van een enterprise-, domein- of ketenarchitectuur de verandering invulling geeft. -->
 
@@ -228,8 +236,8 @@ Drupal, WordPress en TYPO3 zijn het meest geschikt voor de CMS-plugin. Deze drie
 
 Voor webhosting van de oplossing moeten de volgende standaarden gebruikt worden:
 
-- DNSSEC voor domeinnamen. https://www.forumstandaardisatie.nl/open-standaarden/dnssec
-- HTTPS en HSTS voor encryptie van HTTP. https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts
+- DNSSEC voor domeinnamen. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/dnssec)
+- HTTPS en HSTS voor encryptie van HTTP. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts)
 - TLS voor encryptie van HTTP: https://www.forumstandaardisatie.nl/open-standaarden/tls
 
 - Websites moeten bereikbaar zijn via zowel IPv6 als IPv4: https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4
@@ -259,20 +267,46 @@ De oplossing van project verwerkt geen persoonsgegevens. De inhoud en metadata v
 
 ## 6.2 Informatiebeveiliging
 
-Voor informatiebeveiliging kun je een Information Security Management System (ISMS) gebruiken, en [ISO 27001 is een "Pas toe of leg uit standaard"](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001). ICTU past geen ISO 27001 ISMS toe.
+<!-- Voor informatiebeveiliging kun je een Information Security Management System (ISMS) gebruiken, en [ISO 27001 is een "Pas toe of leg uit standaard"](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001). ICTU past geen ISO 27001 ISMS toe. -->
 
 <!--
 TODO: Waarom niet ISO 27001? Heb die vraag gesteld in MS Teams
 https://teams.microsoft.com/l/message/19:E6JPK002Sp8hbLMWwR9hKDC7p7jzQ9LYFmcriSRFmzg1@thread.tacv2/1738146335505?tenantId=6b1d3da2-3751-4e3d-b3c9-e6784c8bad70&groupId=e76d90c5-30b6-456a-8931-3b3940b7a659&parentMessageId=1738146335505&teamName=ICTU%20Softwareontwikkeling&channelName=General&createdTime=1738146335505
 -->
 
-Voor maatregelen voor informatiebeveiliging is de ISO 27002 een standaard.
+<!-- Voor maatregelen voor informatiebeveiliging is de ISO 27002 een standaard. -->
 
-Dat betekent dat website waar de oplossing wordt gepubliceerd moet een 100% score halen op internet.nl.
+<!-- Dat betekent dat website waar de oplossing wordt gepubliceerd moet een 100% score halen op internet.nl. -->
+
+### Risico-matrix
+
+| Aspect            | Kans      | Impact    | Risico    |
+| ----------------- | --------- | --------- | --------- |
+| Beschikbaarheid   | Laag      | Laag      | Laag      |
+| Integriteit       | Gemiddeld | Gemiddeld | Gemiddeld |
+| Vertrouwelijkheid | Laag      | Laag      | Laag      |
+
+### Beschikbaarheid
+
+Het project betreft geen SaaS-oplossing, de oplossing wordt los geïnstalleerd in CMS-en van overheidswebsites. De beschikbaarheid is afhankelijk van de beheerders van overheidswebsites.
+
+Het belangrijkste is dat de broncode en de releases van de oplossing altijd beschikbaar zijn.
+
+Als de oplossing wordt gebruikt om publicatie van content te blokkeren wanneer die niet toegankelijk is, dan wordt daarmee de beschikbaarheid van CMS-functionaliteit beperkt. "False positives" zijn daarmee een risico op de beschikbaarheid van CMS-en. Het testplan moet daarom een goede balans vinden tussen testen van gebruikelijk toegankelijke en ontoegankelijke scenario's.
+
+### Integriteit
+
+Het risico dat de oplossing de integriteit van de gegevens aantast is zeker aanwezig, omdat een deel van de oplossing voor veel ontwikkelaars complex is om te overzien en om te realiseren. Het testplan voor moet voldoende uitgebreid zijn, met name voor functionaliteit die wijzigen doet aan data. Denk daarbij aan processen zoals documenten openen, documenten opslaan en het document aanpassen om een ontoegankelijke structuur te verwijderen.
+
+Het belangrijkste is dat de broncode en de releases betrouwbaar zijn.
+
+### Vertrouwelijkheid
+
+De oplossing verwerkt mogelijk vertrouwelijke gegevens, maar de gegevens blijven binnen het CMS. CMS-en bij de overheid werken meestal met publieke data, daarom is de impact op vertrouwelijkheid meestal laag.
 
 ## 7 Beheer
 
-Beheer van dit project zal verantwoordelijk zijn voor onderhoud van de software, de CMS-plugin geschikt maken voor nieuwe versies van het betreffende CMS, en het onderhoud aan de ontwikkel- en testomgevingen.
+De beheerder van dit project zal verantwoordelijk zijn voor onderhoud van de software en documentatie, elke CMS-plugin geschikt maken voor nieuwe versies van het betreffende CMS, en het onderhoud aan de ontwikkel- en testomgevingen.
 
 Dit project ontwikkelt een oplossing voor een beperkte selectie van toegankelijkheidsproblemen. Als dit project een succes is, dan kan de open source community oplossingen bijdragen voor meer toegankelijkheidsproblemen.
 
@@ -299,3 +333,7 @@ Governance van het open source project zal een belangrijke verantwoordelijkheid 
 <!-- Maak een document -->
 
 [...]
+
+```
+
+```

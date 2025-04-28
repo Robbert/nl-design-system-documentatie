@@ -1,6 +1,20 @@
-# Project Start Architectuur voor Expertteam Digitale Toegankelijkheid, onderdeel theme builder
+# Toegankelijke huisstijlen: Project Start Architectuur voor Expertteam Digitale Toegankelijkheid
 
 https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(max_1_A4)
+
+## Status
+
+Status: Concept.
+
+Datum: 28 april 2025.
+
+| Versie | Datum         | Auteur           | Status  |
+| ------ | ------------- | ---------------- | ------- |
+| 0.4.2  | 28 april 2025 | Robbert Broersma | Concept |
+
+### Versie 0.4.2
+
+Eerste concept-versie.
 
 ## 1. Managementsamenvatting
 
