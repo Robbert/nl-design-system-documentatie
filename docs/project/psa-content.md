@@ -18,9 +18,13 @@ Eerste concept-versie.
 
 ## 1. Managementsamenvatting
 
-De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid, daarom moeten overheidsinstellingen problemen met toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt dat content van websites vaak niet voldoende toegankelijk is.
+De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid. Daarom moeten alle overheidsinstellingen problemen met digitale toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt dat content van websites vaak niet voldoende toegankelijk is.
 
-Content meer toegankelijk maken kan op twee directe manieren: contentmakers ondersteunen bij toegankelijke content maken, en door voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
+Uit onderzoek blijkt dat contentmakers vaak niet op de hoogte zijn van problemen, waardoor ze ontoegankelijke content publiceren. Een deel van deze problemen kan automatisch herkend worden, waardoor met een waarschuwing vóór publicatie problemen worden voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die kunnen opgelost worden door extra handmatige stappen in het publicatieproces.
+
+We zoeken dus een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Deze oplossing moet waar mogelijk problemen herkennen en voorkomen, en waar nodig de redactie helpen door instructies en documentatie in het publicatieproces te verwerken.
+
+Content meer toegankelijk maken kan op door contentmakers ondersteunen bij toegankelijke content maken, en door te voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
 
 We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. <!-- TODO: Zin herschrijven, hint al teveel naar de oplossing -->Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
 
@@ -238,9 +242,8 @@ Voor webhosting van de oplossing moeten de volgende standaarden gebruikt worden:
 
 - DNSSEC voor domeinnamen. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/dnssec)
 - HTTPS en HSTS voor encryptie van HTTP. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts)
-- TLS voor encryptie van HTTP: https://www.forumstandaardisatie.nl/open-standaarden/tls
-
-- Websites moeten bereikbaar zijn via zowel IPv6 als IPv4: https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4
+- TLS voor encryptie van HTTP: [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/tls)
+- Websites moeten bereikbaar zijn, in elk geval via IPv6. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4) Indien mogelijk ook via IPv4.
 
 Voor het aanbieden van gehoste APIs moeten de volgende standaarden gebruikt worden:
 
