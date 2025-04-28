@@ -144,9 +144,23 @@ De impact is ook groot op leveranciers die overheidssoftware ontwikkelen, die in
 Beschrijf in het kort de huidige situatie en geef daarbij aan wat de precieze aanleiding is om deze PSA op te stellen: welke vraagstukken doen zich voor, wat moet worden aangepakt, welke ontwikkelingen vinden plaats waarmee rekening gehouden dient te worden, welke doelstelling en ambities worden nagestreefd, in welke richting het bestuur of management denkt qua oplossing e.d.
 -->
 
+<!-- Oude insteek -->
+
+<!--
 De Nederlandse overheid heeft honderden organisaties met een eigen huisstijl. Veel organisaties denken dat ze niet goed kunnen samenwerken aan digitale dienstverlening, omdat hun huisstijl veel verschilt van andere organisaties.
 
 Het stappenplan om een huisstijl vast te leggen in een lijst met vooraf bepaalde ontwerpkeuzes, kan effectiever zijn als er een "wizard" is waarmee je stapsgewijs de huisstijl tot leven wekt in voorbeelden. Het doorlopen van de wizard kan veel sneller en nauwkeuriger gebeuren wanneer de hoeveelheid aan kleuren en lettertypes beperkt wordt tot relevante opties, gebaseerd op uitingen en documentatie van de bestaande huisstijl.
+-->
+
+Om te voldoen aan wetgeving voor digitale toegankelijkheid, moet 90% van de overheidswebsites verbeterd worden. Ruim de helft van de websites voldoet niet aan de WCAG-succescriteria voor toegankelijk gebruik van kleuren, zoals de [eisen voor kleurcontrast](https://nldesignsystem.nl/wcag/1.4.3) en [zichtbaarheid van focus](https://nldesignsystem.nl/wcag/2.4.7). Het is veel werk om websites toegankelijk te maken, omdat het moeilijk is overzicht te krijgen van alle ontwerpbeslissingen die gecontroleerd moeten worden. De veelgehoorde wens dat overheidswebsites ook "dark mode" moeten ondersteunen, maakt de uitdaging alleen maar groter.
+
+De Nederlandse overheid heeft honderden organisaties met een eigen huisstijl, en veel organisaties hebben méér dan een website waar de huisstijl ingesteld moet worden. In de praktijk is er vaak onvoldoende informatie beschikbaar om de huisstijl toegankelijk toe te passen, en veel ad-hoc ontwerpbeslissingen blijken niet toegankelijk.
+
+De ontwikkelingen in NL Design System hebben het mogelijk gemaakt dat organisaties wel tot in detail hun huisstijl kunnen vastleggen, en gelijk kunnen toepassen op werkende componenten voor toegankelijke websites. Helaas is het op dit moment nog een complex technisch proces, waar ervaren leveranciers meerdere dagen kwijt zijn. Daarna is het wel goed mogelijk om de toegankelijkheid tot in detail te controleren. Dit proces kan verbeterd worden, om met makkelijkere stappen sneller een goed resultaat te hebben.
+
+Het doel is dat overheidsorganisaties op gebruiksvriendelijke wijze hun huisstijl tot in detail kunnen uitwerken en documenteren, waarbij toegankelijkheid bij elke stap wordt gefaciliteerd en gecontroleerd.
+
+<!-- Bijkomend voordeel: na het vastleggen van de huisstijl, heeft de organisatie gelijk de mogelijkheid om de toegankelijke NL Design System componenten te gebruiken om websites mee te ontwikkelen. Daarmee kan tijd bespaard worden, en het wordt makkelijker om te voldoen aan andere WCAG-succescriteria. -->
 
 ## 2.2 Het te bereiken effect
 
@@ -157,22 +171,43 @@ Het afgesproken tijdpad en de kwaliteitseisen: wanneer zijn we tevreden met het 
 Vaak zijn er al documenten die de beoogde verandering beschrijven.
 -->
 
-De overheid bestaat uit meerdere organisaties, maar voor burgers en ondernemers is er 1 overheid. Wanneer veel organisaties meedoen met NL Design System, dan wordt de digitale dienstverlening van de overheid consistent gebruiksvriendelijk en toegankelijk.
+<!-- Oude insteek: -->
 
-Met dit project moet het zó makkelijk worden de diverse huisstijlen van de Nederlandse overheid beschikbaar te maken voor NL Design System, dat de drempel om mee te doen zover verlaagd wordt dat het vanzelfsprekend wordt om wél mee te doen.
+<!-- De overheid bestaat uit meerdere organisaties, maar voor burgers en ondernemers is er 1 overheid. Wanneer veel organisaties meedoen met NL Design System, dan wordt de digitale dienstverlening van de overheid consistent gebruiksvriendelijk en toegankelijk. -->
+
+<!-- Met dit project moet het zó makkelijk worden de diverse huisstijlen van de Nederlandse overheid beschikbaar te maken voor NL Design System, dat de drempel om mee te doen zover verlaagd wordt dat het vanzelfsprekend wordt om wél mee te doen. -->
+
+De ambitie is om overheidsinstellingen beter in staat stellen websites toegankelijk te maken, met behoud van de eigen herkenbare huisstijl.
+
+De oplossing moet helpen bij aspecten van toegankelijkheid die vaak niet goed gaan, en die per huisstijl gecontroleerd moeten worden. Bijvoorbeeld:
+
+- Contrast van betekenisvolle iconen, ondersteunende teksten, knoppen, invoervoelden en links.
+- Onderdelen duidelijk maken met méér dan alleen kleur, zoals van het onderstrepen van links en het markeren van formuliervelden met een fout.
+- Lettergrootte die past bij kleuren met laag contrast.
+- Combinaties van componenten met verschillende achtergrondkleuren.
+
+### Succes
+
+Het project is succesvol wanneer blijkt dat websitemakers beter in staat zijn om toegankelijke ontwerpbeslissingen toe te passen op de overheidswebsites, zodat de websites voldoen aan wettelijk verplichte standaarden voor digitale toegankelijkheid.
 
 ## 2.3 Stakeholders
 
-- Opdrachtgever: Ministerie van Binnenlandse Zaken.
-- Opdrachtnemer: ICTU.
-- Bedrijven en overheidsorganisaties die verantwoordelijk zijn voor een huisstijl-implementaties.
-- Organisaties met een huisstijl die moet voldoen aan Digitale Toegankelijkheid.
-- Ontwikkelaars die een huisstijl nodig hebben.
-- Designers die een huisstijl nodig hebben.
-- Ontwikkelaars van het product.
-- Beheerder: bijvoorbeeld ICTU <!-- TODO: Beheerpartij vasstellen, kijken wat het belang is -->
+De stakeholders van dit project zijn:
 
-TODO: Voor NPR5326 M01 moeten we "Belanghebbenden identificeren en betrekken". Dat betekent namen documenteren en personen voortdurend betrekken bij besluitvorming.
+- Opdrachtgever: Ministerie van Binnenlandse Zaken. De Minister van Binnenlandse Zaken en Koninkrijksrelaties is verantwoordelijk voor monitoring en rapportage inzake naleving van het [Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01), en het blijkt dat naleving verbeterd moet worden.
+- Opdrachtnemer: [ICTU](http://ictu.nl). Voor ICTU is het belangrijk dat de opdracht uitgevoerd kan worden volgens afspraken met de opdrachtgever, en volgens gebruikelijke interne processen.
+- Burgers en bedrijven: toegankelijke overheidswebsites zijn nodig zodat iedereen gelijkwaardige toegang tot die informatie heeft.
+- Architect: er moet voldoende informatie zijn om een Solution Architecture te ontwerpen.
+- Ontwikkelaars van de oplossing: voor succesvolle realisatie van het project zijn realistische doelen en een haalbare aanpak nodig.
+- Beheerder: [NL Design System](https://nldesignsystem.nl). Voor de beheerder is het belangrijk dat de oplossing is voorzien van voldoende documentatie en voldoende automatisering van tests en processen. De implementatie moet zoveel mogelijk aansluiten bij de kennis en ervaring van de beheerder, en bij de componenten die de NL Design System community ontwikkelt.
+- Overheidsorganisaties: elke organisatie die hulp kan gebruiken bij een huisstijl-implementatie die moet voldoen aan Digitale Toegankelijkheid.
+- Visueel ontwerpers die in detail willen controleren dat ontwerpkeuzes toegankelijk zijn.
+<!-- - Leveranciers: software die met NL Design System gemaakt is, kan met deze oplossing in minder tijd ingesteld worden op de huisstijl van de klant. -->
+
+Voor de beheerder is het van belang dat het project aansluit bij de Nederlandse praktijkrichtlijn ["Risicobeheersing bij ontwikkeling en onderhoud van maatwerksoftware" (NPR5326)](https://www.nen.nl/npr5326).
+
+<!--
+M01 moeten we "Belanghebbenden identificeren en betrekken". Dat betekent namen documenteren en personen voortdurend betrekken bij besluitvorming.
 
 Voortdurend betrekken kan door:
 
@@ -180,14 +215,17 @@ Voortdurend betrekken kan door:
 - presenteren in de Nieuwsbrief
 - interactief digitaal overleg inplannen
 - betrokkenen op lokatie uitnodigen
+-->
 
 <!--
 Als het relevant is, neem dan ook wat achtergrondinformatie op over de betrokken overheidsorganisatie(s), de relevante wettelijke taken en de belangrijkste diensten/producten die die organisatie(s) aan de samenleving levert. Een belangrijke bron voor de beschrijving van een organisatie en het maatschappelijke belang, is de website van de organisatie. Daarnaast kunnen gesprekken met mensen, workshops of documenten binnen de organisatie veel input geven.
 -->
 
+<!--
 **Ministerie van Binnenlandse Zaken** werkt aan verbetering van digitale toegankelijkheid van overheidsdiensten. [citation needed] Staatssecretaris Digitalisering en Koninkrijksrelaties heeft dit in het portfolio. [citation needed] Het doel is dat 100% van de websites digitaal toegankelijk is, maar in 2024 scoorde slechts 7% van de websites voldoende. Om de overige 93% van de websites toegankelijk te krijgen moet er nog veel gebeuren.
 
 Concern: het percentage toegankelijke overheidswebsites moet sneller groeien.
+-->
 
 <!-- EAN 301 549 en WCAG 2.1 https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21 -->
 
@@ -197,6 +235,7 @@ Concern: het percentage toegankelijke overheidswebsites moet sneller groeien.
 
 <!-- TODO: Concern: broncode van software, die is ontwikkeld door (of in opdracht van) de overheden, beschikbaar stellen. https://www.rijksoverheid.nl/documenten/kamerstukken/2020/04/17/kamerbrief-inzake-vrijgeven-broncode-overheidssoftware -->
 
+<!--
 > Overheden die met het vrijgeven van open source aan de slag gaan, krijgen mijn
 > steun. Die wil ik geven door goede voorwaarden te creëren. De komende tijd wil
 > ik hen helpen door eventuele juridische onduidelijkheden weg te nemen, meer
@@ -235,6 +274,7 @@ Concern: designers willen sneller en meer nauwkeurige informatie hebben over de 
 **Ontwikkelaars van maatwerk-websites voor de overheid**:
 
 De **beheerder** is een partij die verantwoordelijkheid krijgt voor hosting en onderhoud van de oplossing, wanneer het project is afgerond. NORA Online noemt als voorbeelden: Logius, SSO-ICT, DICTU en ODC-Noord.
+-->
 
 ## 4.1 De invalshoek Grondslagen
 
@@ -360,54 +400,66 @@ De design tokens JSON van organisaties die meedoen met NL Design System zijn in 
 
 Voor webhosting van de oplossing moeten de volgende standaarden gebruikt worden:
 
-- DNSSEC voor domeinnamen. https://www.forumstandaardisatie.nl/open-standaarden/dnssec
-- HTTPS en HSTS voor encryptie van HTTP. https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts
-- TLS voor encryptie van HTTP: https://www.forumstandaardisatie.nl/open-standaarden/tls
-
-- Websites moeten bereikbaar zijn via zowel IPv6 als IPv4: https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4
+- DNSSEC voor domeinnamen. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/dnssec).
+- HTTPS en HSTS voor encryptie van HTTP. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts).
+- TLS voor encryptie van HTTP: [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/tls).
+- Websites moeten bereikbaar zijn, in elk geval via IPv6. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4). Maak de websites ook bereikbaar vai IPv4, indien mogelijk.
 
 Voor het aanbieden van gehoste APIs moeten de volgende standaarden gebruikt worden:
 
-- OpenAPI om de REST API te documenteren. https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification
-- REST API design rules zijn de basis voor het ontwerpen van nieuwe APIs: https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules
-- ISO8601 voor datum- en tijd-gegevens. https://www.forumstandaardisatie.nl/open-standaarden/datum-en-tijd
-- UTF-8 als encoding van HTTP responses en HTTP requests: https://www.forumstandaardisatie.nl/open-standaarden/utf-8
-- https://www.forumstandaardisatie.nl/open-standaarden/uri-en-iri
-- JSON wordt gebruikt voor responses, en niet XML of YAML: https://www.forumstandaardisatie.nl/open-standaarden/json
-- https://www.forumstandaardisatie.nl/open-standaarden/securitytxt
-- Gehoste domeinnamen bieden een `/security.txt` aan voor responsible disclosure informatie. https://www.forumstandaardisatie.nl/open-standaarden/securitytxt
+- OpenAPI om de REST API te documenteren. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification).
+- REST API design rules zijn de basis voor het ontwerpen van nieuwe APIs. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules).
+- ISO8601 voor datum- en tijd-gegevens. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/datum-en-tijd)
+- UTF-8 als encoding van HTTP responses en HTTP requests: [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/utf-8).
+- Verwijs naar documenten met een URI als identifier. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/uri-en-iri).
+- JSON wordt gebruikt voor responses, en niet XML of YAML. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/json).
+- Gehoste domeinnamen bieden een `/security.txt` aan voor responsible disclosure informatie. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/securitytxt).
 
 Voor het maken van applicaties moeten de volgende standaarden worden gebruikt:
 
-- CSS https://www.forumstandaardisatie.nl/open-standaarden/css
-- HTML https://www.forumstandaardisatie.nl/open-standaarden/html
-- SVG https://www.forumstandaardisatie.nl/open-standaarden/svg
+- CSS voor visuele opmaak van documenten op het web. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/css).
+- HTML voor opmaak van info en relaties in documenten op het web. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/html).
+- SVG voor vectorafbeeldingen. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/svg).
+- WCAG voor toegankelijke applicaties en documenten op het web. [Status: licht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21).
 
-- https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001 door BIO
+Voor informatiebeveiliging moeten de opdrachtnemer en beheerder een managementsysteem gebruiken dat voldoet aan ISO-27001. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001). De [Baseline Informatiebeveiliging Overheid (BIO)](https://www.bio-overheid.nl) biedt maatregelen voor de bijbehorende standaard ISO-27002.
 
 ## 6.1 Privacy
 
-Het product zal alleen publieke gegevens verwerken, en gegevens worden niet langdurig opgeslagen.
+De oplossing van project verwerkt geen persoonsgegevens.
 
-TODO:
-
-- Uitzoeken welke gegevens gelogd worden, zoals IP-adressen van requests, URLs die ingevoerd zijn in de theme scraper, en hoe lang ze bewaard worden.
+Als gekozen wordt voor het verzamelen van gebruikersstatistieken, dan moet de verwerking voldoen aan de Algemene verordening gegevensbescherming (AVG).
 
 ## 6.2 Informatiebeveiliging
 
-Voor informatiebeveiliging kun je een Information Security Management System (ISMS) gebruiken, en [ISO 27001 is een "Pas toe of leg uit standaard"](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001). ICTU past geen ISO 27001 ISMS toe.
+### Risico-matrix
 
-<!--
-TODO: Waarom niet ISO 27001? Heb die vraag gesteld in MS Teams
-https://teams.microsoft.com/l/message/19:E6JPK002Sp8hbLMWwR9hKDC7p7jzQ9LYFmcriSRFmzg1@thread.tacv2/1738146335505?tenantId=6b1d3da2-3751-4e3d-b3c9-e6784c8bad70&groupId=e76d90c5-30b6-456a-8931-3b3940b7a659&parentMessageId=1738146335505&teamName=ICTU%20Softwareontwikkeling&channelName=General&createdTime=1738146335505
--->
+| Aspect            | Kans | Impact    | Risico |
+| ----------------- | ---- | --------- | ------ |
+| Beschikbaarheid   | Laag | Laag      | Laag   |
+| Integriteit       | Hoog | Gemiddeld | Hoog   |
+| Vertrouwelijkheid | Laag | Laag      | Laag   |
 
-Voor maatregelen voor informatiebeveiliging is de ISO 27002 een standaard.
+### Beschikbaarheid
 
-Dat betekent dat website waar de oplossing wordt gepubliceerd moet een 100% score halen op internet.nl.
+Wanneer de oplossing tijdelijk niet beschikbaar is, dan kunnen gebruikers vertraging oplopen bij het maken van toegankelijke huisstijlbeslissingen. Omdat ontwikkeltrajecten vaak lang duren, is de impact van vertraging laag.
 
-### Belangrijkste bestaande kaders en inrichtingskeuzes
+De hosting van de oplossing is niet complex, daarom is de kans laag dat de beschikbaarheid onvoldoende is.
 
-### Punten voor discussie
+### Integriteit
 
-Maak een document
+Een grote uitdaging voor dit project is het beschikbaar houden van de gegevens die zijn vastgelegd in design tokens, voor gebruik in de toekomst. Zowel het Design Tokens JSON formaat als de namen van design tokens zijn nog niet gestandaardiseerd en aan verandering onderhevig.
+
+De oplossing kan het mogelijk maken om oude versies van design tokens te herkennen, en waar mogelijk te converteren naar een nieuwe versie. De conversie tussen versies kan onderdeel zijn van het testplan, om het risico van dataverlies te beperken.
+
+### Vertrouwelijkheid
+
+De oplossing verwerkt vrijwel uitsluitend publieke gegegevens, waarbij het risico op inbreuk van vertrouwelijkheid laag is. In zeldzame situaties is een nieuwe huisstijl "onder embargo", maar de impact van het uitlekken van een concept-huisstijl is in het algemeen laag.
+
+## 7 Beheer
+
+De beheerder van de oplossing zal verantwoordelijk zijn voor de hosting van de oplossing.
+
+Dit project ontwikkelt een oplossing gebaseerd op een aantal componenten in de NL Design System community, zoals die nu bestaan. Voor een optimale werking wordt in de toekomst gebruik gemaakt van nieuwe versies van deze componenten, en wordt ondersteuning toegevoegd voor nieuwe componenten die dan veel gebruikt worden.
+
+Governance van het open source project zal een belangrijke verantwoordelijkheid zijn tijdens beheer. Op basis van open source samenwerkingen tijdens dit project, kan gekozen worden op welk niveau in [de open source ambitieladder](https://minvws.github.io/beleidsontwikkeling/ambitieladder/) het beheer wordt gedaan.

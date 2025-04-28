@@ -134,7 +134,7 @@ Het afgesproken tijdpad en de kwaliteitseisen: wanneer zijn we tevreden met het 
 Vaak zijn er al documenten die de beoogde verandering beschrijven.
 -->
 
-De ambitie is om overheidsinstellingen beter in staat stellen de content van websites toegankelijk te maken, door het aanbieden van kennis en hulpmiddelen in de workflow van contentmakers, waardoor een groter deel van webpagina's bij de overheid voldoet aan de wettelijk eisen.
+De ambitie is om overheidsinstellingen beter in staat stellen de content van websites toegankelijk te maken, door het aanbieden van kennis en hulpmiddelen in de workflow van contentmakers, waardoor een groter deel van webpagina's bij de overheid voldoet aan de wettelijke eisen.
 
 ### Kennis
 
@@ -315,7 +315,7 @@ De beheerder van dit project zal verantwoordelijk zijn voor onderhoud van de sof
 
 Dit project ontwikkelt een oplossing voor een beperkte selectie van toegankelijkheidsproblemen. Als dit project een succes is, dan kan de open source community oplossingen bijdragen voor meer toegankelijkheidsproblemen.
 
-Governance van het open source project zal een belangrijke verantwoordelijkheid zijn tijdens beheer. Op basis van open source samenwerkingen tijdens dit project, kan gekozen worden op wel niveau in [de open source ambitieladder](https://minvws.github.io/beleidsontwikkeling/ambitieladder/) het beheer wordt gedaan.
+Governance van het open source project zal een belangrijke verantwoordelijkheid zijn tijdens beheer. Op basis van open source samenwerkingen tijdens dit project, kan gekozen worden op welk niveau in [de open source ambitieladder](https://minvws.github.io/beleidsontwikkeling/ambitieladder/) het beheer wordt gedaan.
 
 <!-- ### Belangrijkste bestaande kaders en inrichtingskeuzes -->
 
