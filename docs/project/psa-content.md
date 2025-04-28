@@ -1,7 +1,5 @@
 # Toegankelijke content: Project Start Architectuur voor Expertteam Digitale Toegankelijkheid
 
-https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(max_1_A4)
-
 ## Status
 
 Status: Concept.
@@ -14,23 +12,29 @@ Datum: 28 april 2025.
 
 ### Versie 0.4.2
 
-Eerste concept-versie.
+Eerste concept-versie, gebaseerd op de [NORA PSA sjabloon](<https://www.noraonline.nl/wiki/Webversie_PSA_Format#1_Managementsamenvatting_(max_1_A4)%3E>).
+Afgestemd met:
+
+- Yolijn van der Kolk, Product Manager
 
 ## 1. Managementsamenvatting
 
-De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid. Daarom moeten alle overheidsinstellingen problemen met digitale toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt dat content van websites vaak niet voldoende toegankelijk is.
+De Nederlandse overheid moet voldoen aan standaarden voor digitale toegankelijkheid. Daarom moeten alle overheidsinstellingen problemen met digitale toegankelijkheid voorkomen of oplossen. De naleving wordt getoetst met periodieke onderzoeksrapporten. Daaruit blijkt: **content van websites is vaak niet voldoende toegankelijk**.
 
-Uit onderzoek blijkt dat contentmakers vaak niet op de hoogte zijn van problemen, waardoor ze ontoegankelijke content publiceren. Een deel van deze problemen kan automatisch herkend worden, waardoor met een waarschuwing vóór publicatie problemen worden voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die kunnen opgelost worden door extra handmatige stappen in het publicatieproces.
+Uit onderzoek blijkt dat contentmakers vaak niet op de hoogte zijn van problemen, waardoor ze ontoegankelijke content publiceren. Sommige contentmakers zijn zich er wel bewust van, maar het blijkt dat de foutmeldingen niet duidelijk zijn en dat niet duidelijk is wat de oplossing moet zijn.
 
-We zoeken dus een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Deze oplossing moet waar mogelijk problemen herkennen en voorkomen, en waar nodig de redactie helpen door instructies en documentatie in het publicatieproces te verwerken.
+We zoeken dus een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Deze oplossing moet waar mogelijk problemen herkennen en voorkomen, en waar nodig de contentmakers tijdens het publicatieproces helpen met begrijpelijke instructies en documentatie.
 
-Content meer toegankelijk maken kan op door contentmakers ondersteunen bij toegankelijke content maken, en door te voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. <!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
+Een deel van deze problemen kan automatisch herkend worden, waardoor je een waarschuwing kan geven om het de content te verbeteren en dan pas te publiceren. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die kunnen opgelost worden door extra handmatige stappen in het publicatieproces.
 
-We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. <!-- TODO: Zin herschrijven, hint al teveel naar de oplossing -->Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken.
+<!-- Content meer toegankelijk maken kan op door contentmakers ondersteunen bij toegankelijke content maken, en door te voorkomen dat in een webpagina's met toegankelijkheidsproblemen worden gepubliceerd. -->
+<!-- TODO: Moeten we nog de organisatorische aanpak noemen, en verwijzen naar andere projecten diet dat doen? Zoals: mandaat om "nee" te zeggen tegen ontoegankelijke content die wordt aangeleverd. -->
+
+<!-- We zoeken een oplossing waarmee de belangrijkste problemen in content voorkomen en opgelost kunnen worden. Contentmakers zijn vaak niet op de hoogte van problemen, terwijl die in veel gevallen automatisch herkend kunnen worden, waardoor publicatie van ontoegankelijke content niet wordt voorkomen. Sommige toegankelijkheidsproblemen kunnen niet automatisch herkend worden, maar die moeten opgelost door extra stappen in het publicatieproces. We zoeken daarom een oplossing die waar mogelijk problemen herkent en voorkomt, en waar nodig de redactie helpt door instructies en documentatie in het proces te verwerken. -->
 
 <!-- De belangrijkste bestaande kaders en inrichtingskeuzes waarmee rekening moet worden gehouden. Benoem hierbij ook de samenhang met architecturen. Bijvoorbeeld door aan te geven welk deel van een enterprise-, domein- of ketenarchitectuur de verandering invulling geeft. -->
 
-De effectiviteit van de oplossing is afhankelijk van goede integratie met de software die gebruikt wordt door de webredactie: de CMS-software van bestaande websites. Bij de overheid zijn 3 CMS softwarepakketten de grootste: Drupal, WordPress, TYPO3. De oplossing zou zoveel mogelijk generiek moeten zijn, met voor de belangrijkste CMS een plugin. <!-- warning: we beloven nu 3 plugins met de volledige functionaliteit -->
+De effectiviteit van de oplossing is afhankelijk van goede integratie met bestaande processen van contentmakers, en dat doeltreffende hulpmiddelen worden aangeboden op het juiste moment. Het gaat dan om integratie met de bestaande CMS-software van overheidswebsites. Begin 2025 zijn bij de overheid 3 CMS softwarepakketten de grootste: Drupal, WordPress en TYPO3.
 
 <!--
 
@@ -99,13 +103,13 @@ Spike nodig:
 
 -->
 
-Deze oplossing is een aanvulling op het NL Design System ecosysteem, waar wordt gewerkt aan digitale toegankelijkheid van visueel ontwerp en de code van websites. De oplossing moet aansluiten op bestaande oplossingen in NL Design System, zodat toegankelijkheid is geborgd in de volledige keten van aanlevering van content bij de webredactie, tot het on-line publiceren in een bestaande website. De oplossing moet ook voordelen bieden aan websites die nog niet NL Design System gebruiken.
+Deze oplossing is een aanvulling op het NL Design System ecosysteem, waar wordt gewerkt aan digitale toegankelijkheid van visueel ontwerp en de code van websites. De oplossing moet aansluiten op bestaande oplossingen in NL Design System, zodat toegankelijkheid is geborgd in de volledige keten van aanlevering van content bij de webredactie, tot het on-line publiceren in een bestaande website. De oplossing moet ook voordelen bieden aan websites die geen NL Design System gebruiken.
 
 <!-- De punten waarover besluitvorming en/of discussie moet plaatsvinden. Denk hierbij met name aan alternatieve oplossingsmogelijkheden en de impact daarvan. Maar ook afwijkingen van de afgesproken kaders. -->
 
 De kaders zijn nu beperkt tot oplossingen voor webtechnologie. Een gedeelte van problemen bij toegankelijkheid komt doordat ontoegankelijke kantoorbestanden worden gepubliceerd op websites. Het aspect kantoorbestanden als bijlage in websites is nu buiten scope gelaten. Echter, een samenwerking met het project NLDoc dat werkt aan het oplossing voor kantoorbestanden ligt voor de hand, omdat die oplossing ook het meest effectief zou zijn als plugin bij CMS-en.
 
-De oplossing is beperkt tot toepassingen voor open source CMS implementaties. De meerderheid van de CMS-markt is open source. en niet een grote afhankelijkheid is van beschikbare capaciteit bij leveranciers om de ontwikkelingen te starten.
+De oplossing is beperkt tot toepassingen voor open source CMS implementaties. De hoogste prioriteit is voor CMS-en die veel worden gebruikt, en waarvoor voldoende CMS-beheerders enthousiast zijn om de CMS-plugin te gebruiken en te testen. Op dit moment zijn dat Drupal en WordPress.
 
 ## 2.1 Aanleiding en doelstelling
 
@@ -140,9 +144,9 @@ Begrijpelijke instructies om content toegankelijk te maken aanbieden, georganise
 
 Een plugin voor een CMS ontwikkelen, die de instructies en hulpmiddelen biedt in de workflow van contentmakers. De plugin bestaat uit drie delen:
 
-- Bestaande schermen in het CMS uitbreiden met instructies om content toegankelijk te maken.
-- Waarschuwingen geven bij ontoegankelijke content, met instructies om het op te lossen.
-- De mogelijkheid bieden om content vanuit een ander perspectief te bekijken, zodat je zonder technische kennis kan beoordelen of de content toegankelijk is.
+1. Bestaande schermen in het CMS uitbreiden met instructies om content toegankelijk te maken.
+2. Waarschuwingen geven bij ontoegankelijke content, met instructies om het op te lossen.
+3. De mogelijkheid bieden om content vanuit een ander perspectief te bekijken, zodat je zonder technische kennis kan beoordelen of de content toegankelijk is.
 
 Dit project ontwikkelt voor 2 CMS-en een plugin. De twee plugins dienen dan als voorbeeld voor de ontwikkeling van plugins voor andere CMS-en.
 
@@ -171,13 +175,11 @@ De stakeholders van dit project zijn:
 
 ## 4.1 De invalshoek Grondslagen
 
-De Nederlandse overheid moet haar websites toegankelijk maken volgens de criteria van [WCAG 2.1](https://www.w3.org/TR/WCAG21/), voor naleving van de Nederlandse wetgeving "[Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01)" en zoals beschreven de Europese norm "[EN 301 549 - Accessibility requirements for ICT products and services](https://accessible-eu-centre.ec.europa.eu/content-corner/digital-library/en-3015492021-accessibility-requirements-ict-products-and-services_en)".
-
-Websites worden periodiek onderzocht door toegankelijkheidsspecialisten op naleving van de wettelijke eisen, aan de hand van de [WCAG-EM](https://www.w3.org/TR/WCAG-EM/) standaard.
+De Nederlandse overheid moet haar websites toegankelijk maken volgens de criteria van [WCAG 2.1](https://www.w3.org/TR/WCAG21/), voor naleving van de Nederlandse wetgeving "[Tijdelijk besluit digitale toegankelijkheid overheid](https://wetten.overheid.nl/BWBR0040936/2018-07-01)" en zoals beschreven de Europese norm "[EN 301 549 - Accessibility requirements for ICT products and services](https://accessible-eu-centre.ec.europa.eu/content-corner/digital-library/en-3015492021-accessibility-requirements-ict-products-and-services_en)". Deze websites worden periodiek onderzocht door toegankelijkheidsspecialisten op naleving van de wettelijke eisen, aan de hand van de [WCAG-EM](https://www.w3.org/TR/WCAG-EM/) standaard.
 
 De [ICTU Kwaliteitsaanpak Softwareontwikkeling](https://ictu.github.io/Kwaliteitsaanpak/) zal toegepast worden bij de ontwikkeling van de oplossing.
 
-Gebruik van de oplossing zal ruim voor het eind van de realisatiefase getest worden met contentmakers en toegankelijkheidsspecialisten, zodat tijdens het Agile ontwikkeproces de gebruiksvriendelijkheid en effectiviteit verbeterd kan worden op basis van feedback.
+Gebruik van de oplossing zal ruim voor het eind van de realisatiefase getest worden met contentmakers en toegankelijkheidsspecialisten, zodat tijdens het Agile ontwikkelproces de gebruiksvriendelijkheid en effectiviteit verbeterd kan worden op basis van feedback.
 
 ## 4.2 De invalshoek Organisatie
 
@@ -195,7 +197,7 @@ Overheidsinstellingen kunnen naleving van toegankelijkheid verbeteren door opdra
 
 <!-- https://www.noraonline.nl/wiki/Stel_een_duidelijke_Quality_of_Service_(QoS)_vast_voor_de_dienst -->
 
-Wanneer contentmakers problemen hebben met de oplossing, dan moeten ze om hulp vragen bij de beheerder van hun CMS. Zolang de opdrachtgever een opdracht geeft voor doorontwikkeling van de oplossing, kan de beheerder van het CMS op hun beurt contact opnemen met de beheerder van de oplossing. De beheerder kan dan besluiten zelf een verbetering te doen, of ze kunnen open source bijdrage in behandeling nemen.
+Wanneer contentmakers problemen hebben met de oplossing, dan moeten ze om hulp vragen bij hun eigen organisatie. De beheerders kunnen via openbare product backlog overleggen wat de prioriteit is, en wie verantwoordelijkheid neemt voor de open source software verbeteren.
 
 NL Design System is de beoogd beheerder van de oplossing.
 
@@ -232,37 +234,37 @@ Het [register van toegankelijkheidsverklaringen](https://www.toegankelijkheidsve
 
 De instructies voor toegankelijke content kunnen gelijk gebruikt worden door alle contentmakers, wanneer ze gepubliceerd zijn op de website van NL Design System. De website is een open source project, waarbij de documentatie wordt beheerd via Markdown-bestanden in een Git-repository.
 
-De oplossingen in de CMS-plugin zijn pas effectief wanneer ze geïnstalleerd zijn in de CMS-en van overheidsinstellingen. De volgende 4 applicaties worden het meest gebruikt voor websites van de overheid: [Drupal](https://drupal.org/), [WordPress](http://wordpress.org), [TYPO3](https://typo3.org/cms) en [Bloomreach Content](https://www.bloomreach.com/en/products/content).
+De oplossingen in de CMS-plugin zijn pas effectief wanneer ze geïnstalleerd zijn in de CMS-en van overheidsinstellingen. De volgende 4 applicaties worden het meest gebruikt voor websites van de overheid: [Drupal](https://drupal.org/), [WordPress](http://wordpress.org) [TYPO3](https://typo3.org/cms) en [Bloomreach Content](https://www.bloomreach.com/en/products/content).
 
-Drupal, WordPress en TYPO3 zijn het meest geschikt voor de CMS-plugin. Deze drie community-driven zijn open source software, en ze hebben een plug-in ecosysteem: [WordPress plugins](https://wordpress.org/plugins/), [Drupal modules](https://www.drupal.org/project/project_module) en [TYPO3 extensions](https://extensions.typo3.org). Bloomreach Content is minder geschikt, alleen de broncode van 24 maanden oude versies wordt publiek gedeeld en er zijn slechts weinig [Bloomreach extensions ontwikkeld door de community](https://bloomreach-forge.github.io/project-list.html).
+Drupal, WordPress en TYPO3 zijn het meest geschikt voor de CMS-plugin. Deze drie zijn open source software, en ze hebben een plug-in ecosysteem: [WordPress plugins](https://wordpress.org/plugins/), [Drupal modules](https://www.drupal.org/project/project_module) en [TYPO3 extensions](https://extensions.typo3.org). Bloomreach Content is minder geschikt, alleen de broncode van 24 maanden oude versies wordt publiek gedeeld en er zijn slechts weinig [Bloomreach extensions ontwikkeld door de community](https://bloomreach-forge.github.io/project-list.html).
 
 ## 5. Standaarden
 
 Voor webhosting van de oplossing moeten de volgende standaarden gebruikt worden:
 
-- DNSSEC voor domeinnamen. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/dnssec)
-- HTTPS en HSTS voor encryptie van HTTP. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts)
-- TLS voor encryptie van HTTP: [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/tls)
-- Websites moeten bereikbaar zijn, in elk geval via IPv6. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4) Indien mogelijk ook via IPv4.
+- DNSSEC voor domeinnamen. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/dnssec).
+- HTTPS en HSTS voor encryptie van HTTP. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/https-en-hsts).
+- TLS voor encryptie van HTTP: [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/tls).
+- Websites moeten bereikbaar zijn, in elk geval via IPv6. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/ipv6-en-ipv4). Maak de websites ook bereikbaar vai IPv4, indien mogelijk.
 
 Voor het aanbieden van gehoste APIs moeten de volgende standaarden gebruikt worden:
 
-- OpenAPI om de REST API te documenteren. https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification
-- REST API design rules zijn de basis voor het ontwerpen van nieuwe APIs: https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules
-- ISO8601 voor datum- en tijd-gegevens. https://www.forumstandaardisatie.nl/open-standaarden/datum-en-tijd
-- UTF-8 als encoding van HTTP responses en HTTP requests: https://www.forumstandaardisatie.nl/open-standaarden/utf-8
-- https://www.forumstandaardisatie.nl/open-standaarden/uri-en-iri
-- JSON wordt gebruikt voor responses, en niet XML of YAML: https://www.forumstandaardisatie.nl/open-standaarden/json
-- https://www.forumstandaardisatie.nl/open-standaarden/securitytxt
-- Gehoste domeinnamen bieden een `/security.txt` aan voor responsible disclosure informatie. https://www.forumstandaardisatie.nl/open-standaarden/securitytxt
+- OpenAPI om de REST API te documenteren. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/openapi-specification).
+- REST API design rules zijn de basis voor het ontwerpen van nieuwe APIs. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/rest-api-design-rules).
+- ISO8601 voor datum- en tijd-gegevens. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/datum-en-tijd)
+- UTF-8 als encoding van HTTP responses en HTTP requests: [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/utf-8).
+- Verwijs naar documenten met een URI als identifier. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/uri-en-iri).
+- JSON wordt gebruikt voor responses, en niet XML of YAML. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/json).
+- Gehoste domeinnamen bieden een `/security.txt` aan voor responsible disclosure informatie. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/securitytxt).
 
 Voor het maken van applicaties moeten de volgende standaarden worden gebruikt:
 
-- CSS https://www.forumstandaardisatie.nl/open-standaarden/css
-- HTML https://www.forumstandaardisatie.nl/open-standaarden/html
-- SVG https://www.forumstandaardisatie.nl/open-standaarden/svg
+- CSS voor visuele opmaak van documenten op het web. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/css).
+- HTML voor opmaak van info en relaties in documenten op het web. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/html).
+- SVG voor vectorafbeeldingen. [Status: Aanbevolen](https://www.forumstandaardisatie.nl/open-standaarden/svg).
+- WCAG voor toegankelijke applicaties en documenten op het web. [Status: licht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/digitoegankelijk-en-301-549-met-wcag-21).
 
-- https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001 door BIO
+Voor informatiebeveiliging moeten de opdrachtnemer en beheerder een managementsysteem gebruiken dat voldoet aan ISO-27001. [Status: Verplicht ('Pas toe leg uit')](https://www.forumstandaardisatie.nl/open-standaarden/nen-isoiec-27001). De [Baseline Informatiebeveiliging Overheid (BIO)](https://www.bio-overheid.nl) biedt maatregelen voor de bijbehorende standaard ISO-27002.
 
 ## 6.1 Privacy
 
@@ -315,7 +317,7 @@ Dit project ontwikkelt een oplossing voor een beperkte selectie van toegankelijk
 
 Governance van het open source project zal een belangrijke verantwoordelijkheid zijn tijdens beheer. Op basis van open source samenwerkingen tijdens dit project, kan gekozen worden op wel niveau in [de open source ambitieladder](https://minvws.github.io/beleidsontwikkeling/ambitieladder/) het beheer wordt gedaan.
 
-### Belangrijkste bestaande kaders en inrichtingskeuzes
+<!-- ### Belangrijkste bestaande kaders en inrichtingskeuzes -->
 
 <!-- TODO: Bij kaders kan ook fasering (plateau's) worden opgenomen -->
 
@@ -329,14 +331,8 @@ Governance van het open source project zal een belangrijke verantwoordelijkheid 
 
 <!-- TODO: voor informatie beveiliging kijken naar categorieen van ISO27001 maatregelen / concerns -->
 
-[...]
+<!-- [...] -->
 
-### Punten voor discussie
+<!-- ### Punten voor discussie -->
 
 <!-- Maak een document -->
-
-[...]
-
-```
-
-```
